@@ -1,3 +1,5 @@
+use cards::hello_world;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", hello_world());
 }
